@@ -1,0 +1,31 @@
+{
+	"name": "flur",
+	"version": "0.0.0",
+	"description": "Check and transform file path to file URL.",
+	"main": "flur.deploy.js",
+	"support": "flur.support.js",
+	"authors": [
+		"Richeve S. Bebedor <richeve.bebedor@gmail.com>"
+	],
+	"license": "MIT",
+	"keywords": [
+		"check",
+		"transform",
+		"file",
+		"path",
+		"file",
+		"url",
+		"flur"
+	],
+	"homepage": "https://github.com/volkovasystems/flur",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"asea": "^0.15.0"
+	}
+}

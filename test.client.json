@@ -1,0 +1,83 @@
+{
+	"state": {
+		"passed": 1,
+		"failed": 0,
+		"skipped": 0
+	},
+	"start": "2017-07-17T19:06:43.769Z",
+	"end": "2017-07-17T19:08:29.216Z",
+	"capabilities": {
+		"browserName": "chrome",
+		"chromeOptions": {
+			"args": [
+				"disable-gpu",
+				"headless"
+			]
+		}
+	},
+	"host": "127.0.0.1",
+	"port": 4444,
+	"baseUrl": "http://localhost",
+	"framework": "mocha",
+	"mochaOpts": {
+		"timeout": 10000,
+		"ui": "bdd"
+	},
+	"suites": [
+		{
+			"name": "flur",
+			"duration": 0,
+			"start": "2017-07-17T19:08:28.939Z",
+			"tests": [],
+			"hooks": []
+		},
+		{
+			"name": "flur",
+			"duration": 95,
+			"start": "2017-07-17T19:08:28.939Z",
+			"end": "2017-07-17T19:08:29.034Z",
+			"tests": [],
+			"hooks": [
+				{
+					"start": "2017-07-17T19:08:28.941Z",
+					"end": "2017-07-17T19:08:28.941Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "flur",
+					"associatedTest": "should return 'file:///sample.txt'"
+				},
+				{
+					"start": "2017-07-17T19:08:29.034Z",
+					"end": "2017-07-17T19:08:29.034Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "flur",
+					"associatedTest": "should return 'file:///sample.txt'"
+				},
+				{
+					"start": "2017-07-17T19:08:29.034Z",
+					"end": "2017-07-17T19:08:29.035Z",
+					"duration": 1,
+					"title": "\"after all\" hook",
+					"associatedSuite": "flur"
+				}
+			]
+		},
+		{
+			"name": "`flur( 'sample.txt' )`",
+			"duration": 94,
+			"start": "2017-07-17T19:08:28.940Z",
+			"end": "2017-07-17T19:08:29.034Z",
+			"tests": [
+				{
+					"name": "should return 'file:///sample.txt'",
+					"start": "2017-07-17T19:08:28.940Z",
+					"end": "2017-07-17T19:08:29.033Z",
+					"duration": 93,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		}
+	]
+}

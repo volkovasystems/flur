@@ -1,0 +1,32 @@
+{
+	"stats": {
+		"suites": 2,
+		"tests": 1,
+		"passes": 1,
+		"pending": 0,
+		"failures": 0,
+		"start": "2017-07-17T19:06:42.732Z",
+		"end": "2017-07-17T19:06:42.752Z",
+		"duration": 20
+	},
+	"tests": [
+		{
+			"title": "should return 'file:///home/richeve/vs/flur/sample.txt'",
+			"fullTitle": "flur `flur( '/home/richeve/vs/flur/sample.txt', true )` should return 'file:///home/richeve/vs/flur/sample.txt'",
+			"duration": 8,
+			"currentRetry": 0,
+			"err": {}
+		}
+	],
+	"pending": [],
+	"failures": [],
+	"passes": [
+		{
+			"title": "should return 'file:///home/richeve/vs/flur/sample.txt'",
+			"fullTitle": "flur `flur( '/home/richeve/vs/flur/sample.txt', true )` should return 'file:///home/richeve/vs/flur/sample.txt'",
+			"duration": 8,
+			"currentRetry": 0,
+			"err": {}
+		}
+	]
+}
